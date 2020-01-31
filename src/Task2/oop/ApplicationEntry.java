@@ -20,7 +20,7 @@ public class ApplicationEntry {
         System.out.println(Envelops.RECTANGLE_HEIGHT);
         rectangleSide2 = Envelops.getCorrectUserInput(scanner);
 
-        Envelop envelop2 = new Envelop();
+        Envelop envelop2 = new Envelop(rectangleSide1, rectangleSide2);
 
         Envelop.compare(envelop1, envelop2);
     }
